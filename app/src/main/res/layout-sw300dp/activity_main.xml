@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/inputTextVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/initVal"
+            android:textSize="14pt" />
+
+        <EditText
+            android:id="@+id/inputVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:hint="@string/euro"
+            android:textCursorDrawable="@null"
+            android:textColor="#0037ff"
+
+            android:inputType="number"
+            android:textSize="16pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14pt"
+            android:text="@string/vat" />
+
+        <EditText
+            android:id="@+id/inputFP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:hint="@string/PercentageVat"
+            android:inputType="number"
+            android:minWidth="100dip"
+            android:text="@string/vatPercent"
+            android:textCursorDrawable="@null"
+            android:textColor="#0037ff"
+            android:textSize="14pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14pt"
+            android:text="@string/receiptLbl" />
+
+        <EditText
+            android:id="@+id/receipt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:hint="@string/euro"
+            android:inputType="number"
+            android:textCursorDrawable="@null"
+            android:textColor="#0037ff"
+            android:textSize="14pt" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/result_button"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18pt"
+            android:text="@string/BtnText"
+            />
+
+
+        <TextView
+            android:id="@+id/resultLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reductionLbl"
+            android:textSize="16pt"
+            />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/resultLbl"
+            android:gravity="center"
+
+            android:textSize="18pt" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

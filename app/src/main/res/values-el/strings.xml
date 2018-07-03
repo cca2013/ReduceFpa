@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Μείωση αξίας μετά από έκπτωση ΦΠΑ</string>
+    <string name="calcScreen">Δώσε 3 αριθμούς εδώ:</string>
+    <string name="BtnText">Νέα Αξία</string>
+    <string name="reductionLbl">μετά τη μείωση</string>
+    <string name="receiptLbl">Αξία απόδειξης</string>
+    <string name="euro">ευρώ</string>
+    <string name="PercentageVat">% ΦΠΑ</string>
+    <string name="vat">ΦΠΑ</string>
+    <string name="vatPercent">24</string>
+    <string name="resultLbl">Πληρωμή</string>
+
+
+    <string name="initVal">Αρχική Αξία</string>
+
+    <string-array name="themes">
+        <item>Theme1</item>
+        <item>Theme2</item>
+    </string-array>
+
+    <string name="OK">OK</string>
+    <string name="def_theme">Theme1</string>
+    <string name="theme_summary">Appearance</string>
+    <string name="theme_dialog_title">Theme</string>
+    <string name="settings">Settings</string>
+
+</resources>

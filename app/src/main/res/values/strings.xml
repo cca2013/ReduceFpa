@@ -1,0 +1,30 @@
+
+    <resources>
+        <string name="app_name">Reduce purchase value with a VAT discount</string>
+        <string name="calcScreen">Give 3 numbers here:</string>
+        <string name="BtnText">New value</string>
+        <string name="reductionLbl">After reduction</string>
+        <string name="receiptLbl">Receipt ammount</string>
+        <string name="euro">Euro</string>
+        <string name="PercentageVat">% VAT</string>
+        <string name="vat">Vat</string>
+        <string name="initVal">Initial Value</string>
+        <string name="vatPercent">20</string>
+        <string name="resultLbl">Payment</string>
+
+        <string-array name="themes">
+            <item>Theme1</item>
+            <item>Theme2</item>
+        </string-array>
+
+
+        <string name="OK">OK</string>
+        <string name="def_theme">Theme1</string>
+        <string name="theme_summary">Appearance</string>
+        <string name="theme_dialog_title">Theme</string>
+        <string name="settings">Settings</string>
+
+    </resources>
+
+
+
